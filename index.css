@@ -1,0 +1,80 @@
+.container{
+    height: 500px;
+    width: 350px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px black,-1px -1px rgb(170, 169, 169);
+    transform: translate(700px,70px);
+    border-radius: 8px;
+    box-shadow: 10px -5px rgb(22, 27, 27,0.5);
+    background-color: rgba(0, 0, 0,0.5);
+}
+.text_container{
+    height: 80px;
+    width: 300px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 4px 1px white, -4px -2px;
+    transform: translate(25px,35px);
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0,0.35);
+    color: rgb(243, 247, 247);
+    font-size: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-display: swap;
+}
+.sum{
+    transform: translate(40px,50px);
+    height: 60px;
+    width: 60px;
+    border-radius: 13px;
+    font-size: 40px;
+    color: rgba(0, 255, 255);
+    background-color: rgba(0, 0, 0,0.6);
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.sum:active{
+    background-color: aquamarine;
+}
+#cross{
+    align-items: centre;
+    align-content: centre;
+}
+.equal{
+    transform: translate(279px,-160px);
+    
+    height: 200px;
+    width: 60px;
+    border-radius: 13px;
+    font-size: 40px;
+    color: rgba(0, 255, 255);
+    background-color: rgba(255, 0, 0,0.7);
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.solar{
+    height: 10px;
+    width: 50px;
+    border: 1px solid rgb(254, 252, 252);
+}
+#del{
+   font-size: 30px;
+   transform: translate(200px,-304px);
+}
+.box_{
+    height: 250px;
+    width: 250px;
+    border: 2px double aqua(44, 246, 71);
+    border-radius: 250px;
+    background-color: rgba(255, 0, 0,0.5);
+    color: blue;
+    display: block;
+    
+    position: relative;
+    bottom: 510px;
+    animation: 3s linear 1s infinite alternate;
+    
+
+
+    
+}
